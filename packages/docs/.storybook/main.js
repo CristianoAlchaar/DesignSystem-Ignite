@@ -15,5 +15,12 @@ module.exports = {
   },
   "features": {
     "storyStoreV7": true
+  },
+  viteFinal: (config, { confitTyoe }) => {
+    if (configType === 'PRODUCTION'){
+      config.base = '/DesignSystem-Ignite/'
+    }
+
+    return config
   }
 }
