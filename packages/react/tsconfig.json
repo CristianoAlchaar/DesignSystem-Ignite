@@ -1,7 +1,4 @@
 {
-  "compilerOptions":{
-    "jsx": "preserve"
-  },
-  "extends" : "@alchaar-ignite-ui/ts-config/base.json",
+  "extends" : "@alchaar-ignite-ui/ts-config/react.json",
   "include": ["src"],
 }
