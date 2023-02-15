@@ -23,10 +23,22 @@ export const Text = styled('p', {
       '8xl': { fontSize: '$8xl' },
       '9xl': { fontSize: '$9xl' },
     },
+    weight: {
+      regular: {
+        fontWeight: 400,
+      },
+      'semi-bold': {
+        fontWeight: 500,
+      },
+      bold: {
+        fontWeight: 700,
+      },
+    },
   },
 
   defaultVariants: {
     size: 'md',
+    weight: 'regular',
   },
 })
 
